@@ -1,0 +1,5 @@
+# Dependency directories
+/target/
+
+# Cargo lock file (keeping it for this reproduction case)
+# Cargo.lock

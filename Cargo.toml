@@ -1,0 +1,10 @@
+[package]
+name = "test-rust-semver"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Using hashbrown 0.15.5 to reproduce the issue
+# where ignoring "major" version should prevent 0.16.0
+# but incorrectly ignores all 0.x versions
+hashbrown = "0.15.5"
